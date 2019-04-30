@@ -9,7 +9,6 @@ const knexConfig = {
   },
   debug: true
 };
-
 const db = knex(knexConfig);
 
 router.get("/", (req, res) => {
